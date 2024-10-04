@@ -7,7 +7,6 @@ import os
 from itertools import product
 from pathlib import Path
 import clip
-import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
 from scipy.stats import hmean
