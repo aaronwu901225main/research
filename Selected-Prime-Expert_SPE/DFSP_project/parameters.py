@@ -2,7 +2,8 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-
+# data config call from current directory
+"""
 YML_PATH = {
     "mit-states": './config/mit-states.yml',
     "mit-states_ours": './config/mit-states_ours.yml',
@@ -25,8 +26,9 @@ YML_PATH = {
     "ut-zappos_ours_MC_dropout_all_ep10": './config/ut-zappos_ours_MC_dropout_all_ep10.yml',
     "ut-zappos_ours_MC_dropout_all_ep20": './config/ut-zappos_ours_MC_dropout_all_ep20.yml'
 }
+"""
 
-
+# data config call from 
 
 #model config
 parser.add_argument("--lr", help="learning rate", type=float, default=5e-05)
