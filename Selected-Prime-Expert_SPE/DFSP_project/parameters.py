@@ -28,7 +28,30 @@ YML_PATH = {
 }
 """
 
-# data config call from 
+# data config call from static directory
+
+YML_PATH = {
+    "mit-states": './config/mit-states.yml',
+    "mit-states_ours": './config/mit-states_ours.yml',
+    "mit-states_ours_0.05": './config/mit-states_ours_0.05.yml',
+    "mit_states_ours_MC_dropout_all_ep20": './config/mit_states_ours_MC_dropout_all_ep20.yml',
+    "ut-zappos": './config/ut-zappos.yml',
+    "cgqa": './config/cgqa.yml',
+    "ut-zappos_Monte_Dropout_all": './config/ut-zappos_Monte_Dropout_all.yml',
+    "ut-zappos_0.05_Monte_Dropout": './config/ut-zappos_0.05_Monte_Dropout.yml',
+    "ut-zappos_ours": './config/ut-zappos_ours.yml',
+    "ut-zappos_ours_0.05": './config/ut-zappos_ours_0.05.yml',
+    "ut-zappos_ours_MC_dropout_all": './config/ut-zappos_ours_MC_dropout_all.yml',
+    "ut-zappos_ours_MC_dropout1": './config/ut-zappos_ours_MC_dropout1.yml',
+    "ut-zappos_ours_MC_dropout2": './config/ut-zappos_ours_MC_dropout2.yml',
+    "ut-zappos_ours_MC_dropout1_ep5": './config/ut-zappos_ours_MC_dropout1_ep5.yml',
+    "ut-zappos_ours_MC_dropout2_ep5": './config/ut-zappos_ours_MC_dropout2_ep5.yml',   
+    "ut-zappos_ours_MC_dropout_all_ep5": './config/ut-zappos_ours_MC_dropout_all_ep5.yml',
+    "ut-zappos_ours_MC_dropout1_ep10": './config/ut-zappos_ours_MC_dropout1_ep10.yml',
+    "ut-zappos_ours_MC_dropout2_ep10": './config/ut-zappos_ours_MC_dropout2_ep10.yml',   
+    "ut-zappos_ours_MC_dropout_all_ep10": './config/ut-zappos_ours_MC_dropout_all_ep10.yml',
+    "ut-zappos_ours_MC_dropout_all_ep20": './config/ut-zappos_ours_MC_dropout_all_ep20.yml'
+}
 
 #model config
 parser.add_argument("--lr", help="learning rate", type=float, default=5e-05)
