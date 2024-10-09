@@ -31,7 +31,7 @@ YML_PATH = {
 # data config call from static directory
 
 YML_PATH = {
-    "mit-states": './config/mit-states.yml',
+    "mit-states": r'C:\Users\AaronWu\Documents\GitHub\research\Selected-Prime-Expert_SPE\DFSP_project\config\mit-states.yml',
     "mit-states_ours": './config/mit-states_ours.yml',
     "mit-states_ours_0.05": './config/mit-states_ours_0.05.yml',
     "mit_states_ours_MC_dropout_all_ep20": './config/mit_states_ours_MC_dropout_all_ep20.yml',
