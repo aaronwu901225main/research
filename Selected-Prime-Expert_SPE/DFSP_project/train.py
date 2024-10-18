@@ -1,4 +1,7 @@
 #
+import torch
+print(torch.cuda.is_available())
+
 import argparse
 import os
 import pickle
